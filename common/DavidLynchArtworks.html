@@ -1,87 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <h1>David Lynch ArtWorks</h1>
     <nav>
-      <ul>
+      <label class="logo">Art Website</label>
+      <ul class="nav_links">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="DavidLynch.html">David Lynch Biography</a></li>
-        <li><strong>David Lynch ArtWorks</strong></li>
+        <li><a href="Artists.html">Artists</a></li>
       </ul>
     </nav>
 
-    <div>
-      <h2>Most famous arts:</h2>
-      <ol>
-        <li><a href="#BillyAndHisFriends">Billy (and His Friends)</a></li>
-        <li><a href="#WomanWithSmallDeadBird">Woman with Small Dead Bird</a></li>
-        <li><a href="#SusieLeftHomeAtAge14">Susie Left home at age 14</a></li>
-        <li><a href="#TreeAtNight">Tree At Night</a></li>
-      </ol>
-    </div>
+    <div class="main_content">
+      <h1>David Lynch ArtWorks</h1>
 
-    <div>
-      <ul>
-        <li>
-          <h3><a name="BillyAndHisFriends"/>Billy (and His Friends)</h3>
-          <img src="../img/DavidLynch_BillyAndFriends.jpg" width="520"/>
-          <p>
-            2018
-            <br>
-            Mixed media
-            <br>
-            66 × 66 in
-            <br>
-            167.6 × 167.6 cm
-          </p>
-        </li>
+      <div>
+        <h3>Most famous arts:</h3>
+        <ol>
+          <li><a href="#BillyAndHisFriends">Billy (and His Friends)</a></li>
+          <li><a href="#WomanWithSmallDeadBird">Woman with Small Dead Bird</a></li>
+          <li><a href="#SusieLeftHomeAtAge14">Susie Left home at age 14</a></li>
+          <li><a href="#TreeAtNight">Tree At Night</a></li>
+        </ol>
+      </div>
 
-        <li>
-          <h3><a name="WomanWithSmallDeadBird"/>Woman with Small Dead Bird</h3>
-          <img src="../img/DavidLynch_WomanWithSmallDeadBird.jpg" width="520"/>
-          <p>
-            2018
-            <br>
-            Mixed media
-            <br>
-            41 3/4 × 41 3/4 in
-            <br>
-            106 × 106 cm
-          </p>
-        </li>
+      <div>
+        <ul>
+          <li class="artwork">
+            <h3><a name="BillyAndHisFriends">Billy (and His Friends)</h3>
+            <img src="../img/DavidLynch_BillyAndFriends.jpg" width="520"/>
+            <p class="artwork_note">
+              2018
+              <br/>
+              Mixed media
+              <br/>
+              66 × 66 in
+              <br/>
+              167.6 × 167.6 cm
+            </p>
+          </li>
 
-        <li>
-          <h3><a name="SusieLeftHomeAtAge14"/>Susie Left home at age 14</h3>
-          <img src="../img/DavidLynch_SusieLeftHomeAtAge14.jpg" width="520"/>
-          <p>
-            2019
-            <br>
-            Painting
-            <br>
-            36 1/5 × 32 1/5 × 3 1/5 in
-            <br>
-            92 × 81.9 × 8.2 cm
-          </p>
-        </li>
+          <li class="artwork">
+            <h3><a name="WomanWithSmallDeadBird">Woman with Small Dead Bird</h3>
+            <img src="../img/DavidLynch_WomanWithSmallDeadBird.jpg" width="520"/>
+            <p class="artwork_note">
+              2018
+              <br/>
+              Mixed media
+              <br/>
+              41 3/4 × 41 3/4 in
+              <br/>
+              106 × 106 cm
+            </p>
+          </li>
 
-        <li>
-          <h3><a name="TreeAtNight"/>Tree At Night</h3>
-          <img src="../img/DavidLynch_TreeAtNight.jfif" width="520"/>
-          <p>
-            2019
-            <br>
-            Mixed media painting
-            <br>
-            57 5/8 × 52 5/8 × 5 5/8 in
-            <br>
-            146.4 × 133.7 × 14.3 cm
-          </p>
-        </li>
-      </ul>
+          <li class="artwork">
+            <h3><a name="SusieLeftHomeAtAge14">Susie Left home at age 14</h3>
+            <img src="../img/DavidLynch_SusieLeftHomeAtAge14.jpg" width="520"/>
+            <p class="artwork_note">
+              2019
+              <br/>
+              Painting
+              <br/>
+              36 1/5 × 32 1/5 × 3 1/5 in
+              <br/>
+              92 × 81.9 × 8.2 cm
+            </p>
+          </li>
+
+          <li class="artwork">
+            <h3><a name="TreeAtNight">Tree At Night</h3>
+            <img src="../img/DavidLynch_TreeAtNight.jfif" width="520"/>
+            <p class="artwork_note">
+              2019
+              <br/>
+              Mixed media painting
+              <br/>
+              57 5/8 × 52 5/8 × 5 5/8 in
+              <br/>
+              146.4 × 133.7 × 14.3 cm
+            </p>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

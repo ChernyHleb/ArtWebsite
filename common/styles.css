@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  background: #dce1e3;
+  height: 50;
+  width: 100%;
+  padding: 10px;
+
+  position: fixed;
+  top: 0;
+}
+
+nav .menu_burger i {
+  color: #fff;
+  font-size: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+label.logo {
+  color: #5c5f58;
+  font-size: 35px;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.nav_links {
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+
+  color: #b73225;
+
+  justify-content: space-between;
+  width: 70%;
+
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.nav_links a:visited {
+  color: #b73225;
+}
+
+.drop_menu_btn:hover .mymenu {
+  display: block;
+}
+
+.mymenu:hover .mymenu {
+  display: block;
+}
+
+.main_content {
+  margin: 100px 15px 15px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #5c5f58;
+  font-family: "Playfair Display SC", serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: rgb(82, 85, 79);
+  font-family: "Playfair Display SC", serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+}
+
+.artwork_note {
+  color: gray;
+}
+
+.artwork {
+  margin-top: 10px;
+}
